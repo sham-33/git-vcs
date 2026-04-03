@@ -9,7 +9,7 @@ function isPrime(num: number): boolean {
   return true;
 }
 
-for (let i = 1; i <= 17; i++) {
+for (let i = 1; i <= 100; i++) {
   if (isPrime(i)) {
     console.log(i);
   }
