@@ -9,7 +9,7 @@ function isPrime(num: number): boolean {
   return true;
 }
 
-for (let i = 3; i <= 200; i++) {
+for (let i = 3; i <= 205; i++) {
   if (isPrime(i)) {
     console.log(i);
   }
